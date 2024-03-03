@@ -1,0 +1,164 @@
+.body {
+  background-color: #f9f9f9;
+}
+
+form {
+width: 1000px;
+margin: auto;
+}
+
+
+.section-title {
+  color: whitesmoke;
+}
+
+.heading-bar {
+  background-color: #d94e44;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.section-1 {
+  width: 80%;
+  background-color: #f6f4f4;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 50px;
+  border: none;
+}
+
+input[type="text"] {
+  width: 50px;
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+#ingredient {
+  width: 200px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 100%;
+  border: none;
+}
+
+.recipe-details {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.section-2 {
+  width: 80%;
+  background-color: #f6f4f4;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.section-3 {
+  width: 80%;
+  background-color: #f6f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.step-btn {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  align-self: center;
+  background-color: #fff;
+  border: solid 1px #db4d3f;
+}
+
+.btn-step {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.btn-step span {
+  color: #db4d3f;
+  font-size: 20px;
+}
+
+.section-4 {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cancel-btn {
+  cursor: pointer;
+  width: 50%;
+  border: solid 1px #db4d3f;
+  background-color: #fff;
+  padding: 5px;
+  margin: 0;
+}
+
+.save-btn {
+  cursor: pointer;
+  margin: 0;
+  width: 50%;
+  background-color: #db4d3f;
+  color: whitesmoke;
+  padding: 5px;
+  border: solid 1px #db4d3f;
+}
+
+.btn-add-ingredient {
+  border: solid 1px #db4d3f;
+  background-color: #ffff;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.recipe-details p {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+.section-1 p {
+  margin-bottom: 8px;
+}
+
+.sub-section-width {
+  width: 90%;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+span {
+  color: #fff;
+  font-size: 20px;
+  align-self: center;
+}

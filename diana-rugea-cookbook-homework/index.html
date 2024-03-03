@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1e58c0165e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Cook Book</title>
+</head>
+
+<body>
+  <form>
+
+    <!-- Section 1 -->
+    <section class="section-1">
+      <div class="heading-bar">
+        <i class="fa fa-info" style="font-size: 18px; color: white; padding: 10px;"></i>
+        <span>About</span>
+      </div>
+      <div class="sub-section-width">
+        <p>Recipe title</p>
+        <input placeholder="Title" style="width: 100%;">
+      </div>
+      <div class="sub-section-width">
+        <p>Description</p>
+        <textarea name="terms" cols="76" rows="4" placeholder=""></textarea>
+      </div>
+      <div class="recipe-details">
+        <label for="portions-number">Portions
+          <input type="number" name="portions-number" id="portions-number" placeholder="0"></label>
+        <label for="time">Time(mins)
+          <input type="number" name="time" id="time" placeholder="0"></label>
+        <label for="difficulty-level">Difficulty
+          <input type="number" name="difficulty-level" id="difficulty-level" placeholder="0"></label>
+      </div>
+    </section>
+    <br>
+
+    <!-- SECTION 2 -->
+    <section class="section-2">
+      <div class="heading-bar">
+        <i class="fa fa-list" style="font-size: 18px; color: white; padding: 10px;"></i>
+        <span>Ingredients</span>
+      </div>
+      <ul>
+        <li><i class="fa-sharp fa-solid fa-angles-right" style="color: #db4d3f;"></i> 300 g brown rice</li>
+        <li><i class="fa-sharp fa-solid fa-angles-right" style="color: #db4d3f;"></i> 2 pc red onions</li>
+        <li><i class="fa-sharp fa-solid fa-angles-right" style="color: #db4d3f;"></i> 1 pc fresh red chilli</li>
+        <li><i class="fa-sharp fa-solid fa-angles-right" style="color: #db4d3f;"></i> 25 g unsalted butter</li>
+        <li><i class="fa-sharp fa-solid fa-angles-right" style="color: #db4d3f;"></i> 6 pc large free-range eggs</li>
+      </ul>
+      <div class="recipe-details">
+        <input type="text" name="quantity-number" id="quantity-number" placeholder="Qty.">
+        <input type="number" name="unity-of-measure" id="unity-of-measure" placeholder="Unit"></label>
+        <p>of</p>
+        <input type="text" name="ingredient" id="ingredient" placeholder="Ingredient">
+        <button class="btn-add-ingredient">
+          <i class="fa fa-plus-square" style="font-size: 15px; color: #db4d3f;"></i>
+        </button>
+      </div>
+    </section>
+    </section>
+    <br>
+
+    <!-- SECTION 3 -->
+    <section class="section-3">
+      <div class="heading-bar">
+        <i class="fa fa-list-ol" style="font-size: 18px; color: white; padding: 10px;"></i>
+        <span>Steps</span>
+      </div>
+      <div class="sub-section-width">
+        <ol>
+          <li>Cook the rice in a pan of boiling salted water according to the packet instructions, then drain and
+            refresh
+            under cold water, leaving it in the colander.
+          </li>
+          <br>
+          <li>At the same time, poach the fish in a large pan of simmering salted water on a medium heat for 10 minutes,
+            then carefully remove with a slotted spoon. Turn up the heat under the poaching water and bring back to a
+            good
+            simmer.
+          </li>
+          <br>
+          <li>Meanwhile, peel the onions and finely slice with the red chilli (deseed if you like) and coriander stalks.
+            Peel and finely chop the garlic and ginger. Place it all in a large frying pan on a medium heat with 1
+            tablespoon of oil and the butter, and cook for 10 minutes, or until soft but not coloured, stirring
+            occasionally.
+          </li>
+        </ol>
+      </div>
+      <div class="sub-section-width">
+        <p>Step</p>
+        <textarea name="step" cols="70" rows="4" placeholder="Step description"></textarea>
+        <button class="step-btn">
+          <div class="btn-step">
+            <i class="fa fa-plus-square" style="font-size: 18px; color: #db4d3f; padding: 10px;"></i>
+            <span>Add step</span>
+          </div>
+        </button>
+      </div>
+    </section>
+    <br>
+
+    <!-- Section 4 -->
+    <section class="section-4">
+      <button class="cancel-btn">
+        <i class="fa fa-trash-o" style="font-size: 18px; color: #db4d3f;"></i>
+        <span style="color: #db4d3f;">Cancel</span>
+      </button>
+      <button class="save-btn">
+        <i class="fa fa-floppy-o" style="font-size: 18px; color:#ffffff;"></i>
+        <span>Save Recipe</span>
+      </button>
+    </section>
+  </form>
+</body>
+
+</html>
