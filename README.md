@@ -26,11 +26,11 @@
 
 - fa-floppy-o for "Save recipe" button;
 
-* Max width of the form should be 1000px and the header (including navigation) should be liquid (expand as needed).
+### Max width of the form should be 1000px and the header (including navigation) should be liquid (expand as needed).
 
-* Navigation sections should be equal and navigation controls should be centered both horizontally and vertically.
+### Navigation sections should be equal and navigation controls should be centered both horizontally and vertically.
 
-* When the width permits there is an "of" between "Unit" and "Ingredient", in the "Ingredients" section ;)
+### When the width permits there is an "of" between "Unit" and "Ingredient", in the "Ingredients" section ;)
 
-* Put all files into one archive. Name the archive using the following pattern: your-name-css-cookbook-homework
+### Put all files into one archive. Name the archive using the following pattern: your-name-css-cookbook-homework
 
